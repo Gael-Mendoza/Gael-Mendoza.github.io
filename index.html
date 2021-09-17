@@ -568,7 +568,7 @@
 
                 if (keyPressed == " ") {
                     wordIndex++;
-                    if (mode == "words") {
+                    if (mode == "words" || mode == "quotes") {
                         document.getElementById("counter").innerText = wordIndex + " / " + totalNumberOfWords;
                         WordCompletedAnimation();
                     }
